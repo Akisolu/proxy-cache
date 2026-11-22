@@ -1,6 +1,12 @@
 # ⚡ HTTP Proxy Caching Server
 
-[Español](README.es.md) | English
+**What it does:** A local intermediary that saves copies of web pages you visit, so the second visit is faster and uses less traffic.  
+**Why it matters:** Downloading the same page again and again wastes time and bandwidth.
+
+**Qué hace:** Un intermediario local que guarda copias de las páginas web que visitas, para que la segunda visita sea más rápida y consuma menos tráfico.  
+**Por qué importa:** Descargar la misma página una y otra vez desperdicia tiempo y ancho de banda.
+
+> 📄 Versión completa en español: [README.es.md](README.es.md)
 
 A caching proxy server developed in **Python with Flask and Requests**. This service acts as an intermediary between the client and an origin server, intercepting HTTP requests to cache responses on the local file system and reduce latency on subsequent requests.
 
@@ -42,7 +48,7 @@ Project developed following the specifications of the challenge [roadmap.sh/proj
 ## 🚀 Installation and Configuration
 1. **Clone the Repository and Install Dependencies**
 ```bash
-git clone https://github.com/Aki-new/proxy-cache.git
+git clone https://github.com/Akisolu/proxy-cache.git
 cd proxy-cache
 
 # Create and activate virtual environment
